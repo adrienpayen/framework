@@ -16,4 +16,10 @@ interface ContainerInterface
      * @return mixed
      */
     public function get($id);
+
+    /**
+     * @param $id
+     * @return mixed
+     */
+    public function has($id);
 }
